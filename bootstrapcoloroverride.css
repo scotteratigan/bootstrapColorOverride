@@ -1,0 +1,45 @@
+/*
+	Override Bootstrap Colors v1 by Scott Ratigan 2018/09/23
+	Purpose: override the default bootstrap colors for the most basic elements: text-color, bg-color, border-color.
+	Does not style more advanced elements like alert, buttons, etc.
+
+	To use: change one of the color variables below. To reset back, the default value is also included.;
+*/
+
+:root {
+	--primary-color: pink; /* default: #007bff */
+	--secondary-color: #6c757d; /* default: #6c757d */
+	--success-color: #28a745; /* default: #28a745 */
+	--info-color: #17a2b8; /* default: #17a2b8 */
+	--warning-color: #ffc107; /* default: #ffc107 */
+	--danger-color: #dc3545; /* default: #dc3545 */
+	--light-color: #f8f9fa; /* default: #f8f9fa */
+	--dark-color: #343a40; /* default: #343a40 */
+}
+
+/* Do not make changes below this line */
+
+.bg-danger { background: var(--danger-color) !important; }
+.bg-dark { background: var(--dark-color) !important; }
+.bg-info { background: var(--info-color) !important; }
+.bg-light { background: var(--light-color) !important; }
+.bg-primary { background: var(--primary-color) !important; }
+.bg-secondary { background: var(--secondary-color) !important; }
+.bg-success { background: var(--success-color) !important; }
+.bg-warning { background: var(--warning-color) !important; }
+.border-danger { border-color: var(--danger-color) !important; }
+.border-dark { border-color: var(--dark-color) !important; }
+.border-info { border-color: var(--info-color) !important; }
+.border-light { border-color: var(--light-color) !important; }
+.border-primary { border-color: var(--primary-color) !important; }
+.border-secondary { border-color: var(--secondary-color) !important; }
+.border-success { border-color: var(--success-color) !important; }
+.border-warning { border-color: var(--warning-color) !important; }
+.text-danger { color: var(--danger-color) !important; }
+.text-dark { color: var(--dark-color) !important; }
+.text-info { color: var(--info-color) !important; }
+.text-light { color: var(--light-color) !important; }
+.text-primary { color: var(--primary-color) !important; }
+.text-secondary { color: var(--secondary-color) !important; }
+.text-success { color: var(--success-color) !important; }
+.text-warning { color: var(--warning-color) !important; }
