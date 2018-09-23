@@ -7,6 +7,7 @@
 */
 
 :root {
+	/* In the below example, only the primary-color is changed to pink: */
 	--primary-color: pink; /* default: #007bff */
 	--secondary-color: #6c757d; /* default: #6c757d */
 	--success-color: #28a745; /* default: #28a745 */
